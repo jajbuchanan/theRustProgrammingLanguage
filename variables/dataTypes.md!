@@ -1,0 +1,13 @@
+ # Data types
+
+ ## Scalar Types
+
+Rust has four primary scalar types: 
+1. Integers
+    A number without a fractional component
+    Length      Signed     Unsigned
+    8-bit       i8         u8
+    16-bit      i16       
+2. Floating-point numbers
+3. Booleans
+4. Characters
