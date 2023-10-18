@@ -8,7 +8,7 @@
 // An attribute to hide warnings for unused code. 
 #![allow(dead_code)]
 
-#![derive(Debug)]
+#[derive(Debug)]
 struct Person {
     name: String, 
     age: u8, 
@@ -18,7 +18,7 @@ struct Person {
 struct Unit; 
 
 // A tuple struct
-struct Pair(i32, f32)
+struct Pair(i32, f32);
 
 // A struct with two fields
 struct Point {
@@ -76,10 +76,6 @@ fn main() {
     let Pair(integer, decimal) = pair; 
 
     println!("pair contains {:?} and {:?}", integer, decimal);
-
-    fn rect_area(x:
-
-
 }
 
 // Activity
